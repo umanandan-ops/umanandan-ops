@@ -1,0 +1,42 @@
+*{
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+}
+body {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color:rgba(255, 101, 44, 0.909); */
+}
+.form{
+    margin:none;
+    border:1px solid black;
+    padding:30px;
+    background-color: white;
+}
+h1{
+    text-align: center;
+    margin-bottom:15px;
+    color:rgba(255, 101, 44, 0.909);
+}
+.form input {
+    padding:10px;
+    margin:5px 0 10px 15px;
+    font-size: 20px;
+    border-left: hidden;
+    border-right: hidden;
+    border-top:hidden;
+    border-bottom:groove;
+    outline: none;
+}
+.form input td{
+    font-size: 15px;
+    
+}
+
+.form .buttonsub ,.button{
+    background-color:rgba(255, 101, 44, 0.909);
+    color:white;
+}

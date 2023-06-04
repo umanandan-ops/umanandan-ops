@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./success.css">
+    <title>Insertion Form</title>
+</head>
+<body>
+
+    <h1>Pharma Assist</h1>
+    
+    <div class="form">
+    <form action="medicine_info" method="get">
+        <table>
+            <tr>
+                <td>Batch Code</td>
+                <td><input type="text" name="batch_code"></td>
+            </tr>
+            <tr>
+                <td>Medicine Code</td>
+                <td><input type="text" name="medicine_code"></td>
+            </tr>
+            <tr>
+                <td>Weight</td>
+                <td><input type="text" name="weight"></td>
+            </tr>
+            <tr>
+                <td>Price</td>
+                <td><input type="text" name="price"></td>
+            </tr>
+            
+            <tr>
+                <td>Medicine Type</td>
+                <td>
+                <select name="medicine_type" id="">
+                    <option value="Capsule">Capsule</option>
+                    <option value="Tablet">Tablet</option>
+                    <option value="Syrup">Syrup</option>
+                </select>
+            </td>
+            </tr>
+            <tr>
+                <td>Refridgerator</td>
+                <td>
+                    <input type="radio" value="Yes" name="ref">
+                    <label for="Yes">Yes</label>
+                    <input type="radio" value="No" name="ref">
+                    <label for="No">No</label>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Update" class="submit">
+    </form>
+</div>
+</body>
+</html>
